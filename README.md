@@ -18,3 +18,14 @@ this is a clean starting point for one rather than a working player.
 - JDK 17 or newer (checked with OpenJDK 21)
 - Optional: VS Code with the *Extension Pack for Java*
 
+## Build and run
+
+```sh
+mkdir -p bin
+javac -d bin src/App.java
+java -cp bin App
+```
+
+Expected output: `Hello, World!`. With JDK 11+ you can also run `java src/App.java` directly,
+and in VS Code you can press the **Run** button above `main`.
+

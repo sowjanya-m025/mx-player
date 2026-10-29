@@ -1,0 +1,12 @@
+# Compiled output (matches java.project.outputPath in .vscode/settings.json)
+bin/
+out/
+*.class
+
+# Dependencies are not committed; put third-party .jar files in lib/ locally
+lib/*.jar
+
+# OS / editor
+.DS_Store
+.idea/
+*.iml

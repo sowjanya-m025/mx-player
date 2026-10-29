@@ -40,3 +40,8 @@ Added `.gitignore` (ignores `bin/` and `*.class`), `.gitattributes` (the upload 
 line endings), `lib/.gitkeep` (git does not store empty folders, and VS Code expects `lib/`),
 and this README. The macOS `.DS_Store` file was left out.
 
+## Ideas for next steps
+
+- Pick a playback library (e.g. JavaFX `MediaPlayer`, VLCJ, or JLayer for audio) and add its jars to `lib/`.
+- Start with a console player (play, pause, stop, open file), then add a GUI.
+- Split the code into packages such as `player`, `ui` and `playlist` under `src/`.

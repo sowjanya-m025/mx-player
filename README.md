@@ -29,3 +29,14 @@ java -cp bin App
 Expected output: `Hello, World!`. With JDK 11+ you can also run `java src/App.java` directly,
 and in VS Code you can press the **Run** button above `main`.
 
+## Verification status
+
+Checked in an offline sandbox: `src/App.java` compiles and prints `Hello, World!`. There are no
+tests because there is no logic yet.
+
+## Changes made during review
+
+Added `.gitignore` (ignores `bin/` and `*.class`), `.gitattributes` (the upload used Windows CRLF
+line endings), `lib/.gitkeep` (git does not store empty folders, and VS Code expects `lib/`),
+and this README. The macOS `.DS_Store` file was left out.
+
